@@ -87,6 +87,20 @@
                             "sha256": "aa751d169e23c7479ce47a0cb0da579e3ede798f994f5816a74e4f4500dcea42"
                         }
                     ]
+                },
+                {
+                    "name": "python3-pillow",
+                    "buildsystem": "simple",
+                    "build-commands": [
+                        "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pillow\" --no-build-isolation"
+                    ],
+                    "sources": [
+                        {
+                            "type": "file",
+                            "url": "https://files.pythonhosted.org/packages/00/d5/4903f310765e0ff2b8e91ffe55031ac6af77d982f0156061e20a4d1a8b2d/Pillow-9.5.0.tar.gz",
+                            "sha256": "bf548479d336726d7a0eceb6e767e179fbde37833ae42794602631a070d630f1"
+                        }
+                    ]
                 }
             ]
         },
@@ -112,8 +126,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/kra-mo/cartridges",
-                    "tag": "v1.3.2",
-                    "commit": "9986e35365e79aca726002c83ee53e86db6d91ba"
+                    "tag": "v1.4",
+                    "commit": "1a3c26c074b608f25e7a1692c708cbf07173dd04"
                 }
             ]
         }
