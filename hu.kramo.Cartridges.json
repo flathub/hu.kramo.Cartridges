@@ -11,12 +11,7 @@
         "--device=dri",
         "--socket=wayland",
         "--talk-name=org.freedesktop.Flatpak",
-        "--filesystem=~/.steam/steam/:ro",
-        "--filesystem=xdg-data/lutris/:ro",
-        "--filesystem=xdg-cache/lutris/:ro",
-        "--filesystem=xdg-config/heroic/:ro",
-        "--filesystem=xdg-data/bottles/:ro",
-        "--filesystem=xdg-config/itch/:ro",
+        "--filesystem=host:ro",
         "--filesystem=~/.var/app/com.valvesoftware.Steam/data/Steam/:ro",
         "--filesystem=~/.var/app/net.lutris.Lutris/:ro",
         "--filesystem=~/.var/app/com.heroicgameslauncher.hgl/config/heroic/:ro",
@@ -111,7 +106,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag" : "v0.6.0"
+                    "tag" : "v0.8.1"
                 }
             ],
             "cleanup" : [
@@ -126,8 +121,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/kra-mo/cartridges",
-                    "tag": "v1.4.1",
-                    "commit": "8378c72250d7b2e2c1c53db0446f17eca3b6a6f7"
+                    "tag": "v1.5",
+                    "commit": "382623d1e74696237e481530a3ba1f71527527a2"
                 }
             ]
         }
