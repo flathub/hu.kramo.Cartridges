@@ -16,7 +16,8 @@
         "--filesystem=~/.var/app/net.lutris.Lutris/:ro",
         "--filesystem=~/.var/app/com.heroicgameslauncher.hgl/config/heroic/:ro",
         "--filesystem=~/.var/app/com.usebottles.bottles/data/bottles/:ro",
-        "--filesystem=~/.var/app/io.itch.itch/config/itch/:ro"
+        "--filesystem=~/.var/app/io.itch.itch/config/itch/:ro",
+        "--filesystem=/var/lib/flatpak:ro"
     ],
     "cleanup" : [
         "/include",
@@ -27,7 +28,8 @@
         "/share/man",
         "/share/pkgconfig",
         "*.la",
-        "*.a"
+        "*.a",
+        "Cartridges.iss"
     ],
     "modules" : [
         {
@@ -121,8 +123,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/kra-mo/cartridges",
-                    "tag": "v1.5.6",
-                    "commit": "882ed55cc65907aa05afb6457f9fce78a931e87f"
+                    "tag": "v2.0",
+                    "commit": "0100e7176cd33a7ffa81856361c24f98fff11c9a"
                 }
             ]
         }
