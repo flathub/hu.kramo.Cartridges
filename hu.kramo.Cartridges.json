@@ -112,7 +112,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag" : "v0.8.1"
+                    "tag" : "v0.10.0"
                 }
             ],
             "cleanup" : [
@@ -128,7 +128,7 @@
                     "type" : "git",
                     "url" : "https://github.com/kra-mo/cartridges",
                     "tag": "v2.8",
-                    "commit": "c5675efa48af6daf15fac9c68b5dcf08cd754e53"
+                    "commit": "5306b7c81cf54aa87f7e0d70a5671c292e9d89ad"
                 }
             ]
         }
