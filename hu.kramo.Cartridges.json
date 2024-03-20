@@ -1,7 +1,7 @@
 {
     "id" : "hu.kramo.Cartridges",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "45",
+    "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
     "command" : "cartridges",
     "finish-args" : [
@@ -127,8 +127,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/kra-mo/cartridges",
-                    "tag": "v2.7.4",
-                    "commit": "4559516b5a30329b04653dec5dcaae2ce45fea27"
+                    "tag": "v2.8",
+                    "commit": "c5675efa48af6daf15fac9c68b5dcf08cd754e53"
                 }
             ]
         }
