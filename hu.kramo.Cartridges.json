@@ -1,7 +1,7 @@
 {
     "id" : "hu.kramo.Cartridges",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "45",
+    "runtime-version" : "46",
     "sdk" : "org.gnome.Sdk",
     "command" : "cartridges",
     "finish-args" : [
@@ -112,7 +112,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "tag" : "v0.8.1"
+                    "tag" : "v0.10.0"
                 }
             ],
             "cleanup" : [
@@ -127,8 +127,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/kra-mo/cartridges",
-                    "tag": "v2.7.4",
-                    "commit": "4559516b5a30329b04653dec5dcaae2ce45fea27"
+                    "tag": "v2.8",
+                    "commit": "5306b7c81cf54aa87f7e0d70a5671c292e9d89ad"
                 }
             ]
         }
